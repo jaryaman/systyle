@@ -14,6 +14,7 @@ if '__main__' == __name__:
         packages=find_packages(),
         license=open('LICENSE.txt').read(),
         long_description=open('README.md').read(),
+        name=open('modulename.txt').read().replace('\n', ''),
         version=open('version.txt').read().strip(),
     )
 
