@@ -17,9 +17,6 @@ Optional:
 pre-commit install
 ```
 
-## Demonstrations
-See `./demos`.
-
 ### A word on virtual environments
 We strongly recommend that every new project you work on has an associated virtual environment, so that package installation does not affect your operating system.
 
@@ -27,3 +24,6 @@ We favour the use of python virtual environments over Conda. See [here](https://
 
 ### A word on IDEs
 Consider using PyCharm.
+
+## Demonstrations
+See `./demos`.
