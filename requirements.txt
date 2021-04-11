@@ -3,4 +3,4 @@ jupyter
 pandas
 numpy
 scipy
-pre-commit
+seaborn
