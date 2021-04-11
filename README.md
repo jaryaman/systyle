@@ -12,11 +12,6 @@ pip install -U -r requirements.txt
 pip install -e .
 ```
 
-Optional:
-```bash
-pre-commit install
-```
-
 ### A word on virtual environments
 We strongly recommend that every new project you work on has an associated virtual environment, so that package installation does not affect your operating system.
 
