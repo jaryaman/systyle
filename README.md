@@ -5,11 +5,7 @@ A python package for publication-quality plotting in matplotlib
 ## Installation
 To install:
 ```bash
-cd /path/to/desired/installation/directory
-git clone git@github.com:jaryaman/systyle.git
-cd systyle
-pip install -U -r requirements.txt
-pip install -e .
+pip install git+https://github.com/jaryaman/systyle@master
 ```
 
 ### A word on virtual environments
