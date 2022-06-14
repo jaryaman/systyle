@@ -1,6 +1,8 @@
 import matplotlib.pyplot as plt
 from IPython import get_ipython
 
+from .style import Style
+
 
 def plot(n_rows=1, n_cols=1, fig_size=5):
     """Generate a matplotlib plot and axis handle
