@@ -5,7 +5,15 @@ import sys
 from setuptools import find_packages
 from setuptools import setup
 
-# *** main ***
+requirements = [
+    'matplotlib',
+    'jupyter',
+    'pandas',
+    'numpy',
+    'scipy',
+    'seaborn',
+    'pyyaml',
+]
 
 if '__main__' == __name__:
     setup(
@@ -17,6 +25,7 @@ if '__main__' == __name__:
         name=open('modulename.txt').read().replace('\n', ''),
         version=open('version.txt').read().strip(),
         include_package_data=True,
+        install_requires = requirements,
     )
 
 sys.exit(0)
