@@ -1,1 +1,1 @@
-recursive-include dir systyle/matplotlibrc
+recursive-include systyle *
