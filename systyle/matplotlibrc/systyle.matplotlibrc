@@ -103,7 +103,7 @@
 # The font.size property is the default font size for text, given in pts.
 # 12pt is the standard value.
 #
-font.family         : Nimbus Sans
+font.family         : Arial
 #font.style          : normal
 #font.variant        : normal
 font.weight         : normal
@@ -158,11 +158,11 @@ text.usetex         : False
 # These settings are only used if mathtext.fontset is 'custom'.
 # Note that this "custom" mode is unsupported and may go away in the
 # future.
-mathtext.cal : Nimbus Sans
-mathtext.rm  : Nimbus Sans
+mathtext.cal : Arial
+mathtext.rm  : Arial
 #mathtext.tt  : monospace
-mathtext.it  : Nimbus Sans:italic
-mathtext.bf  : Nimbus Sans:bold
+mathtext.it  : Arial:italic
+mathtext.bf  : Arial:bold
 #mathtext.sf  : sans
 mathtext.fontset : custom # Should be 'cm' (Computer Modern), 'stix',
                        # 'stixsans' or 'custom'
@@ -170,7 +170,7 @@ mathtext.fontset : custom # Should be 'cm' (Computer Modern), 'stix',
                                  # fonts when a symbol can not be found in one of
                                  # the custom math fonts.
 
-#mathtext.default : Nimbus Sans # The default font to use for math.
+#mathtext.default : Arial # The default font to use for math.
                        # Can be any of the LaTeX font names, including
                        # the special name "regular" for the same font
                        # used in regular text.
